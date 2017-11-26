@@ -1,0 +1,29 @@
+guy.x = 163.16772331034082
+guy.y = 427.51246076757513
+guy.gunx = 179.00260645816797
+guy.guny = 425.21976024315865
+guy.hp = 97.0
+guy.grens = 181
+guy.money = 4600
+guy.initspeed = 4.1
+guy.armor = 0
+guy.nukes = 0
+guy.primary = weapons['Scout']
+guy.primary.clip  = 3
+guy.primary.ammo = 60
+guy.secondary = weapons['USP']
+guy.secondary.clip  = 5
+guy.secondary.ammo = 72
+enemies = [] 
+dead = [] 
+enemies.append(Enemy(500.53290101744824,350.32811128943615,'H')) 
+enemies.append(Enemy(390.5384561921912,572.8043836398448,'E')) 
+menu.items = [] 
+menu.items.append(Item(50,0,'Lightarmor')) 
+menu.items.append(Item(150,0,'Armor')) 
+menu.items.append(Item(550,0,'Heavyarmor')) 
+menu.items.append(Item(650,0,'Superarmor')) 
+menu.items.append(Item(720,0,'Nuke')) 
+menu.items.append(Item(397.96314004217953,352.8030365271707,'MP5')) 
+menu.round = 5
+menu.zombies = ['E', 'E', 'T', 'T', 'H', 'N', 'N', 'N', 'T', 'H', 'E', 'H', 'S', 'S', 'E', 'N', 'E', 'N', 'N', 'E', 'N', 'H', 'S', 'H', 'N', 'E', 'N', 'H', 'E', 'H', 'T', 'S', 'H', 'N', 'H', 'H', 'H', 'H', 'T', 'E', 'S']
